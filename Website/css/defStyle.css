@@ -1,0 +1,75 @@
+
+body{
+	font-family: 'Arvo',Georgia,serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	background-color: #f3f1f1;
+}
+h1{
+	font-family: 	'Yanone Kaffeesatz',Georgia,serif;
+	font-size: 250%;	
+	line-height: 0.125;
+	color: #363636;
+		font-variant: small-caps;
+	text-align: center;
+}
+h2{
+	font-family: 'Yanone Kaffeesatz',Georgia, serif;
+	font-size:180%;
+	display: inline;
+	color: #E5C58F;
+	//text-shadow: 1px 1px #939393;
+}
+h3{
+	font-family: 'Yanone Kaffeesatz',Georgia, serif;
+	font-size:250%;
+	display: inline;
+	color: #E5C58F;
+	text-shadow: 1px 1px #939393;
+}
+h4{
+	font-family: 'Yanone Kaffeesatz',Georgia, serif;
+	font-size:250%;
+	display: inline;
+	color: #98B7C6;
+	text-shadow: 1px 1px #939393;
+}
+h5{
+	font-family: 'Arvo',Georgia, serif;
+	font-size:150%;
+	display: inline;
+	color: #E5C58F;
+}
+
+.frontpage{
+	border: 1px solid #D6D6D6;
+}
+.title{
+	font-family: 'Arimo';
+	font-size : 700%;
+	color:#BFEAFF;
+	text-shadow: 3px 2px #8FB1C1;
+	background-image: "img/Banner.jpg";
+}
+a{
+	color: #98CEF2;
+	text-decoration: none;
+}
+vCenter{
+	vertical-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+sym{
+	font-family: webdings;
+	color: #777777;
+}
+.floaty{
+	float:right;
+	background-position: fixed;
+}
