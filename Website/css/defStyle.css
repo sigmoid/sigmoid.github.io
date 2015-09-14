@@ -41,6 +41,30 @@ h5{
 	display: inline;
 	color: #E5C58F;
 }
+.wraparound{
+	display:inline;
+	border:2px solid #D6D6D6;
+	padding: 1px 1 px;
+	float:right;
+}
+
+ul { 
+    display: block;
+    list-style-type: square;
+    margin-top: 1em ;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+} 
+li
+ {
+ background-image: url(arrow.gif);
+ background-repeat: no-repeat;
+ background-position: 100% .4em;
+	padding-right: .6em;
+margin: .5em 0;
+ }
 
 .frontpage{
 	border: 1px solid #D6D6D6;
