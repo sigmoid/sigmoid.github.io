@@ -6,6 +6,18 @@ body{
 	background-origin:border-box;
 	background-attachment:inherit;
 }
-iframe{
-	align: center;
+h1{
+	text-align: center;
+}
+
+.videoWrapper{
+	text-align: center;
+}
+
+.videoWrapper iframe{
+	margin-top:275px;
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
