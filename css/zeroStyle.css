@@ -96,4 +96,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00696969', e
 	font-family:"Poiret One";
 	color: white;
 	font-size:130%;
+	
+}
+#footer p{
+text-align:right;
+color:white;
+font-family:"Poiret One";
+margin: 0;
 }
