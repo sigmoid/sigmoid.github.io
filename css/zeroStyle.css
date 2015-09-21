@@ -8,15 +8,17 @@ html, body{
 	margin:0;
 	padding:0;
 }
+
 h1{
 	text-align: center;
 	font-size:175%;
+	text-shadow:1px 1px black;
 	
 	font-family:"Poiret One";
 	color: white;
 }
 #feedback p{
-	font-family:"Merriweather";
+	font-family:"Josefin Slab";
 	color:white;
 	font-size:140%;
 }
@@ -39,6 +41,20 @@ h1{
 	margin-left:auto;
 	margin-right:auto;
 	width:40%;
+}
+#description{
+	text-align:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	width:45%;
+}
+#description p{
+	text-align:center;
+	color:#E1E1DF;
+	font-size:24px;
+	font-family:"Josefin Slab";
 }
 #buttons{
 	text-align:center;
