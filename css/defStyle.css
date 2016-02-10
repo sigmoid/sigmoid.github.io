@@ -79,6 +79,7 @@ margin: .5em 0;
 a{
 	color: #98CEF2;
 	text-decoration: none;
+	text-shadow: 1px 1px #7d9fb5;
 }
 #list a{
 color:#63AECD
