@@ -70,10 +70,9 @@ margin: .5em 0;
 	border: 1px solid #D6D6D6;
 }
 .title{
-	font-family: 'Arimo';
+	font-family: 'Josefin Sans';
 	font-size : 700%;
-	color:#BFEAFF;
-	text-shadow: 3px 2px #8FB1C1;
+	color:#444;
 	//background-image: "img/Banner.jpg";
 }
 a{
