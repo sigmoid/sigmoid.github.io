@@ -18,7 +18,14 @@ body{
     margin:0;
     background:  #fff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 16px;
+}
+
+.floatLeft{
+    border-style: solid;
+    border: 10;
+    float:left;
+    margin-right: 10px;
 }
 
 .title{
@@ -36,6 +43,7 @@ body{
 p{
     font-size: 16px;
     text-align: left;
+    margin-left: 10px;
 }
 
 h1{
@@ -44,8 +52,12 @@ h1{
 }
 h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #888
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -71,6 +83,69 @@ div.panel.show {
     margin:0 auto;
 }
 
+#resume{
+    text-align: left;
+    width:700;
+    margin:0 auto;
+}
+
+
+#bio{
+    text-align: center;
+    font-size: 16px;
+    width:700;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#bio>p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color:#0074D9;
+
+    letter-spacing: 1px;
+}
+
+a:hover{
+    color:#001f3f;
+    letter-spacing: 3px;
+}
+a:visited{
+    color:#B10DC9;
+}
+
+
+#navigation{
+    background-color: #DDDDDD;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 0;
+    padding: 20px;
+}
+#navigation>a{
+    text-decoration: none; 
+    word-spacing: 20px;
+
+}
+
+#navigation>a:link{
+    color:#0074D9;
+
+    letter-spacing: 2px;
+}
+
+#navigation>a:hover{
+    color:#001f3f;
+    letter-spacing: 5px;
+}
+
 .TextWrap{
     float:right;
     margin:10px;
@@ -80,8 +155,8 @@ div.panel.show {
 
 #header{
     background-color: #444;
-    margin-bottom: 50px;
-    padding: 20 50px;
+    margin-bottom: 0px;
+    padding: 35px;
     color: #ffffff;
     font-size: 80px;
     text-align: center;
@@ -90,6 +165,7 @@ div.panel.show {
 #header>p{
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 0px;
     font-size: 22px;
 }
 
