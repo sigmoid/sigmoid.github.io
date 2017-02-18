@@ -23,9 +23,10 @@ body{
 
 .floatLeft{
     border-style: solid;
+    border-color: #cccccc;
     border: 10;
     float:left;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .title{
@@ -80,6 +81,13 @@ div.panel.show {
 #content{
     text-align: center;
     width:700;
+    margin:0 auto;
+}
+
+#about{
+    text-align: center;
+    width:900;
+    height:320;
     margin:0 auto;
 }
 
