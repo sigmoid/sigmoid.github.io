@@ -41,6 +41,11 @@ h5{
 	display: inline;
 	color: #E5C58F;
 }
+
+table {
+border: 1px solid black;
+}
+
 .wraparound{
 	display:inline;
 	border:2px solid #D6D6D6;
