@@ -32,6 +32,15 @@ body{
     float:right;
 }
 
+.restitle
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: 600;
+    color: #000
+}
+
 .title{
    letter-spacing: 10px;
    margin-top:60px;
