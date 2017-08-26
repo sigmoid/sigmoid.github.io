@@ -57,6 +57,8 @@ p{
     font-size: 16px;
     text-align: left;
     margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 h1{
@@ -81,6 +83,8 @@ button.accordion.active, button.accordion:hover {
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: white;
     display: none;
 }
