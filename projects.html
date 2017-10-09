@@ -28,6 +28,7 @@ Adam Waggoner
 <br><br>
 
 <div id="content">
+  <h1> games </h1>
 <button class="accordion"><img class="TextWrap" src="img/prco-strip.JPG"><h1>Please Respond, Colony 1</h1><h2><p>Programmer, Designer (Team of 2)</p></h2></button>
     <div class="panel">
     <p>Paint landscapes and discover the memories of the last survivor of the first martian colony.</p>
@@ -130,11 +131,11 @@ Adam Waggoner
           </div>
         </div>
 
-   <button class="accordion"><img class="TextWrap" src="img/castle-splash-thumbnail.png"><h1>Castle Splash!</h1><h2><p>Role: Programmer (Team of 10)</p></h2></button>
+   <button class="accordion"><img class="TextWrap" src="img/castle-splash-thumbnail.png"><h1>Castle Splash!</h1><h2><p>Role: Programmer (Team of 9)</p></h2></button>
     <div class="panel">
       <p>A game where you dig sand and protect your castle from the tide.</p>
       <p>Made for Global Game Jam 2017 at the University of Utah.</p>
-      <img src="img/castle-gif.gif" width="640"/>
+      <img src="img/GlobalGameJam.gif" width="640"/>
 
       <div class="links">
       <p>Engine: Unity</p>
@@ -143,17 +144,64 @@ Adam Waggoner
       </div>
     </div>
 
-    <button class="accordion"><img class="TextWrap" src="img/afito-strip.jpg"><h1>Other Projects</h1></button>
+    <button class="accordion"><img class="TextWrap" src="img/afito-strip.jpg"><h1>Other Game Projects</h1></button>
     <div class="panel">
     <p><a href="https://gamejolt.com/games/high-five/237570">High Five</a>: A qwop-inspired high five simulation.</p>
     <p><a href = "https://gamejolt.com/games/a-fragment-in-the-ocean/194052"> A Fragment in The Ocean</a>: A short game I made to learn more about shaders.</p>
     <p><a href = "https://bacongamejam.org/jams/bacongamejam-09/363/"> Orpheus</a>: Stealth fighting game made for BaconGameJam. I did procedural level generation.</p>
     <p><a href= "https://gamejolt.com/games/sub-human/25738">Subhuman</a> Short platformer I made for Ludum Dare. Player controls two games simultaneously.</p>
     <p><a href="https://gamejolt.com/games/minimus/14295">Minimus</a>: A puzzle game based on gravity. (Mobile version unrealeased)
+      <p><b>Multiplayer Snake:</b> A TCP/IP multiplayer version of Snake. Along with a partner, I implemented a server and client using Windows forms for graphics.</p>
     <p><b>Christmas Night</b>: A Christmas themed tower defense made in XNA. My first jam game.
     <p><b>Incipio</b>: Twin-stick shooter and tower defense game made in XNA. My first published game.</p>
       </div>
-    </div>
+
+    <h1>other programming projects</h1>
+
+    <button class="accordion"><h1>Image Processing</h1></button>
+     <div class="panel">
+       <p>Whenever I can come up with a reason to, I try to write interesting
+         shaders and postprocessing effects. These are some of my favorite results.</p>
+         <br>
+       <p><b>Animated Painting Shader:</b></p>
+         <img src="img/painterly-full.jpg" width="100%;"/>
+         <img src="img/painting-demo.gif" width="100%;"/>
+         <br><br>
+       <p><b>Symmetrical Discrete Cosine Transform</b></p>
+       <img src="img/neato.png" width="100%"/>
+       <br><br>
+       <p><b>Noise-based Distortion and Transitions</b></p>
+       <img width="100%" src="img/afito-fx.gif"/>
+       <br><br>
+       <p>Engine: Unity/OpenGL</p>
+       <p>Languages: Cg (variant of HLSL)/C++</p>
+     </div>
+
+     <button class="accordion"><h1>Multi-User Spreadsheet</h1></button>
+      <div class="panel">
+      <p>Spreadsheet program similar to Google Sheets. I wrote
+      a spreadsheet front-end in C# with a formula parser as well as a dependency
+      graph to update dependent cells. Afterwards I worked on a TCP/IP based
+      multi-threaded server in C++ utilizing the boost library.</p>
+      <br>
+      <p>Team Size: 4</p>
+      <p>Languages: C#/C++</p>
+      </div>
+
+      <button class="accordion"><h1>ffmpeg Image Codec</h1></button>
+       <div class="panel">
+         <p>Wrote a custom image codec for ffmpeg in C. The objective was to
+         achieve a compression of 1/3 the original size. My partner and I
+         came up with a strategy of storing alternating color channels for each pixel
+         (red, green, blue, etc), then averaging neighboring pixels to get an
+         approximation of the image's original color.</p>
+         <img width="100%;" src="img/spffcomp.png"></img>
+         <p>Team Size: 2</p>
+         <p>Language: C</p>
+       </div>
+
+
+
 </div>
 
 <div id="footer">
