@@ -216,6 +216,10 @@ td{
   vertical-align: super;
 }
 
+#about>a{
+  font-size: 26px;
+}
+
 #resume{
     text-align: left;
     width:900;
@@ -302,8 +306,9 @@ a:visited{
     font-size: 22px;
 }
 
-#header>a{
+#header>img{
   padding-top: 0px;
+  margin-top:50px;
 }
 
 #footer{
