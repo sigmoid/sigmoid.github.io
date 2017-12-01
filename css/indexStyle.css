@@ -5,7 +5,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  height:850px;
+  height:900px;
   position: relative;
   margin: auto;
   background-color: #EFEFEF;
@@ -117,8 +117,8 @@ button.accordion {
 body{
     margin:0;
     background:  #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .floatLeft{
@@ -135,8 +135,8 @@ body{
 
 .restitle
 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     font-variant: small-caps;
     font-weight: 600;
     color: #000
@@ -163,16 +163,16 @@ p{
 }
 
 h1{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
 }
 h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     color: #888
 }
 h3{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
 }
 
