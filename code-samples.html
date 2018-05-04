@@ -1,0 +1,63 @@
+<head>
+  <meta name="description" content="Adam Waggoner: Makes games.">
+  <meta name="keywords" content="ludiorum,games,indie games, video games,adam waggoner">
+  <meta name="author" content="Adam Waggoner">
+  <title>Projects</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/indexStyle.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+
+<div id="header">
+Adam Waggoner
+<p>Software Engineer</p>
+<a target="_blank" href="http://twitter.com/adamthewaggoner">
+  <img width="40px" src="img/soc-tw.svg"/></a>
+<a target="_blank" href="https://github.com/sigmoid">
+  <img img width="40px" src="img/soc-gh.svg"/></a>
+<a target="_blank" href="http://www.linkedin.com/in/adam-waggoner-634b13134">
+  <img img width="40px" src="img/soc-li.svg"/></a>
+</div>
+
+<div id ="navigation">
+<a href="index.html">About</a><a href="https://github.com/sigmoid" target="_blank">
+  <a href="projects-games.html">Games </a>
+  <a href="code-samples.html">  Code</a>
+</div>
+
+<br><br>
+
+<div id="content">
+    <h1>code samples</h1>
+
+     <button class="accordion"><h1>Memory allocator (C)</h1></button>
+      <div class="panel">
+        <script src="https://gist.github.com/sigmoid/aa855c81e4fe1d68c2403efd9525a3e4.js"></script>
+      </div>
+
+      <button class="accordion"><h1>Collision Manager (C#/Unity)</h1></button>
+       <div class="panel">
+         <script src="https://gist.github.com/sigmoid/9c0cada595c65dd2a8e8bfde8db26629.js"></script>
+       </div>
+
+
+</div>
+
+<!--Accordion script-->
+<script>
+/* Toggle between adding and removing the "active" and "show" classes when the user clicks on one of the "Section" buttons. The "active" class is used to add a background color to the current button when its belonging panel is open. The "show" class is used to open the specific accordion panel */
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}
+</script>
