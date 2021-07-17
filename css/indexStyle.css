@@ -176,6 +176,10 @@ h3{
     font-size: 40px;
 }
 
+li{
+    text-align: left;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: #ccc;
