@@ -40,7 +40,19 @@ Adam Waggoner
   <p>Opal is one of my current projects and is probably the one I spend the most time on since March of 2021. It is a game engine that is currently focused on 2D games, but I have built scaffolding for 3D projects in the future.</p>
   <p>Tech-wise it is written entirely in C++ using Vulkan for rendering. I have built a rendering API that is flexible enough to also work for other graphics APIs such as Metal and DirectX in the future.</p>
   <p>One of the main reasons for re-writing the renderer was to be able to support as many platforms as possible. Right now, the engine runs smoothly on both Mac and Windows.</p>
-  <p>Once I have built all of the rendering features I need, I will port the non-rendering systems from my engine, Ichor, which has its own section on this page for details of what it is capable of.</p>
+  <p>I am currently building a larger project with this engine, but as I was getting it on its feet I worked on several smaller projects. I built a platformer with a level editor, and a mystery game called snowbound that I actually finished, but decided not to release because, well, it wasn't very good.</p>
+  <br>
+  <p>Features of this engine include:</p>
+  <ul>
+    <li>Batched sprite renderer capable of rendering thousands of sprites at a high framerate.</li>
+    <li>Swept AABB collision and AABB raycasting.</li>
+    <li>A post-processing stage.</li>
+    <li>Infinite tilemap system.</li>
+    <li>Tilemap editor.</li>
+    <li>Audio using soloud.</li>
+    <li>Input from keyboard, mouse, and gamepad via GLFW</li>
+    <li>ImGUI integration</li>
+  </ul>
   </div>
 
   <button class="accordion"><img class="TextWrap" src="img/snowbound-strip.png"><h1>Snowbound</h1><h2>Solo</h2></button>
@@ -48,27 +60,8 @@ Adam Waggoner
     <p>Snowbound is a survival mystery game that I made in 2020. You play as a detective whose job is to identify dead bodies on a mountain pass using items they had on them to figure out which body belongs to which name.</p>
     <p>I made everything for Snowbound from the engine to the art. The only areas I didn't fully make myself were fonts and sound.</p>
     <p>I started making Snowbound for the global game jam, but quickly realized I wouldn't finish in time, so I worked on it on weekends for about a month.</p>
-    <p>Snowbound was built in my own engine, Ichor, which has a section on this page if you're interested in it.</p>
+    <p>Snowbound was built in my own engine, Opal, which has a section on this page if you're interested in it.</p>
     </div>
-
-  <button class="accordion"><img class="TextWrap" src="img/ichor-strip.jpg"><h1>Ichor</h1><h2>Solo</h2></button>
-  <div class="panel">
-      <p> Ichor is a 2D game engine made in C++ using OpenGL, glfw, FMOD, and tinyXML2. Aside from those libraries, I wrote all of the code for the engine myself starting in February of 2020. </p> 
-      <p> I made a game called Snowbound in this engine which has its own space on this page if you're interested in it.</p>
-      <p> I decided to re-write the rendering engine in Vulkan which has been my main focus since March of 2021. For more information on that, refer to the 'Opal' project on this page.</p>
-
-      <p>Here is a list of some of what I've implemented for this project</p>
-      <ul>
-        <li>Batched sprite renderer capable of rendering thousands of sprites at a high framerate.</li>
-        <li>Swept AABB collision and AABB raycasting.</li>
-        <li>A post-processing stage.</li>
-        <li>Custom UI system.</li>
-        <li>Infinite tilemap system.</li>
-        <li>Tilemap editor.</li>
-        <li>Audio using FMOD.</li>
-        <li>Input from keyboard, mouse, and gamepad via GLFW</li>
-      </ul>
-  </div>
 
     <button class="accordion"><img class="TextWrap" src="img/torpor-strip.jpg"><h1>Torpor</h1><h2>Team of 2</h2></button>
     <div class="panel">
