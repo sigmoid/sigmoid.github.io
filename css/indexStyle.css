@@ -178,6 +178,8 @@ h3{
 
 li{
     text-align: left;
+    font-size: 24px;
+    margin:10px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
